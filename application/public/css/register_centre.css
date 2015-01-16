@@ -1,0 +1,727 @@
+/* ================================================================/* ==========================================================================
+   Header CSS
+   ========================================================================== */
+
+.logo-painter {
+  z-index:0;
+  width: 80px;
+  height: 100px;
+  background-image: url("../img/register/painter.png");
+  background-size: 100%;
+  margin-top: 83px;
+  background-repeat: no-repeat;
+}
+
+.pianist-girl {
+  width: 188px;
+  height: 190px;
+  background-image: url("../img/register/pianist.png");
+  background-size: 100%;
+  margin-bottom: -11px;
+  margin-top: 29px;
+  margin-left: 31px;
+  background-repeat: no-repeat;
+
+}
+.baker {
+  width: 91px;
+  height: 161px;
+  background-image: url("../img/register/baker.png");
+  background-size: 100%;
+  margin-top: 45px;
+  margin-left: 31px;
+  background-repeat: no-repeat;
+}
+
+.img-grass {
+  width: 970px;
+  height: 49px;
+  background-image: url("../img/main/grass_ground.png");
+  margin-top: -50px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+/* ==========================================================================
+   Footer CSS
+   ========================================================================== */
+
+.books {
+  margin: 6px -20px 0 12px;
+  height: 50px;
+  width: 100px;
+  background: url("../img/register/books.png") no-repeat;
+  background-size: 90%;
+}
+
+.studying {
+  margin-top: -72px;
+  margin-left: 20px;
+  height: 150px;
+  width: 126px;
+  background: url("../img/register/studying.png") no-repeat;
+  background-size: 90%;
+}
+
+.red-hat-boy {
+  margin-top: -77px;
+  height: 150px;
+  width: 101px;
+  background: url("../img/register/red_hat_boy.png") no-repeat;
+  background-size: 90%
+}
+
+.reg-kiddies {
+  height:0px;
+}
+
+.purple-slant {
+  background-color: #52126E;
+  height:10px;
+  width:500px;
+  margin-top: -5px;
+}
+
+.waves {
+  height: 18px;
+  width: 490px;
+  float: right;
+  margin-top: -6px;
+  background: url("../img/register/footer_waves.png") no-repeat;
+}
+
+/* ==========================================================================
+   Font CSS
+   ========================================================================== */
+
+::-webkit-input-placeholder { color:#555!important; }
+::-moz-placeholder { color:#555!important; } /* firefox 19+ */
+:-ms-input-placeholder { color:#555!important; } /* ie */
+input:-moz-placeholder { color:#555!important; }
+
+/* ==========================================================================
+   Content CSS
+   ========================================================================== */
+.reg-form-container {
+  min-height: 400px;
+  border: 3px solid #B57ACE;
+  -moz-box-shadow:    0 20px 0 -15px #815796;
+  -webkit-box-shadow: 0 20px 0 -15px #815796;
+  box-shadow:         0 20px 0 -15px #815796;
+}
+
+.lbl-reg {
+  background-color: #B47ACE;
+  width: 240px;
+  height: 49px;
+  z-index: 999;
+}
+
+.reg-center-label {
+  font-size: 20px;
+  margin-top:14px;
+  bottom:24px;
+  color: #FFF;
+  position:relative;
+}
+
+.shadow-label {
+  -moz-box-shadow:    5px 3px 0 -2px #815796;
+  -webkit-box-shadow: 5px 3px 0 -2px #815796;
+  box-shadow:         5px 3px 0 -2px #815796;
+
+}
+
+.step-size {
+  font-size: 18px;
+}
+
+.step-indicator {
+  color: #732B8B;
+}
+
+.lighter-indicator {
+  color: #C7B2CF;
+}
+
+.sap-info-color {
+  background-color: #FEE9E8;
+}
+
+.sap-info-font {
+  font-size: 11px;
+}
+
+.no-border {
+  border: none;
+}
+
+.sharp-edge {
+  border-radius:                    0px;
+  -webkit-border-radius:            0px;
+  -moz-border-radius:               0px;
+}
+
+.form-error {
+  color:red;
+}
+
+#locations-error {
+  margin: 0 10px 10px;
+}
+
+.calendar-logo {
+  height: 30px;
+  width: 30px;
+  background: url("../img/register/calendar.png") no-repeat;
+  background-size: 100%;
+  margin: -32px 65px;
+  cursor: pointer;
+}
+
+.select-width-long {
+  width: 435px!important;
+}
+
+.select-width-short {
+  width:210px!important;
+}
+
+.tbl-class-schedule > tbody > tr > td {
+  width:100px;
+}
+
+.modal_reminder {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.location_group_width {
+  width:287px;
+}
+
+.width_404 {
+  width: 404px;
+}
+
+.width-384 {
+  width: 384px;
+}
+
+.location-group {
+  border: 1px solid #B278D4;
+  width: 416px;
+  margin-bottom: 20px;
+  padding:10px;
+}
+
+.mg-r-20 {
+  margin:-20px -7px;
+}
+
+.btn-remove-loc {
+  padding: 2px 5px;
+}
+
+.branch {
+  width: 384px;
+  margin-top: 10px;
+}
+
+.centre-address {
+  width: 384px;
+}
+
+.btn-circle {
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  padding: 2px 0;
+  font-size: 12px;
+  line-height: 1.42;
+  border-radius: 15px;
+}
+
+/* ==========================================================================
+   Predefined CSS
+   ========================================================================== */
+
+.date-size {
+  font-size: 9px;
+}
+/* ==========================================================================
+   Upload Image CSS
+   ========================================================================== */
+.img-upload-btn {
+  color:#000;
+  height:31px;
+  background-color:#8EE5D3;
+  border-radius: 0px;
+  -moz-box-shadow:    2px 2px 1px 1px #55AFBA;
+  -webkit-box-shadow: 2px 2px 1px 1px #55AFBA;
+  box-shadow:         2px 2px 1px 1px #55AFBA;
+}
+
+.upload-txt {
+  width: 300px;
+  height:auto;
+  float: left;
+}
+
+.upload-btn {
+  width: 90px;
+  height:auto;
+  float:left;
+}
+
+#adhoc_add_another {
+  width: 400px;
+  height: 40px;
+  margin: -10px 0 0 10px;
+  font-size: 11px;
+}
+
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 999px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  background: red;
+  cursor: inherit;
+  display: block;
+}
+input[readonly] {
+  background-color: white !important;
+  cursor: text !important;
+}
+/* ==========================================================================
+   Success Page CSS
+   ========================================================================== */
+
+.success {
+  margin: 150px 55px 0 10px;
+  min-height: 420px;
+  text-align: center;
+}
+
+.success h3 {
+  line-height: 40px;
+}
+
+/*
+@-moz-document url-prefix() {
+  select {
+    -moz-appearance: none!important;
+    text-indent: 0.01px!important;
+    text-overflow: ""!important;
+  }
+}*/
+
+@-moz-document url-prefix(){
+  .styled-select select { width: 110%; }
+}==========
+   Header CSS
+   ========================================================================== */
+
+.logo-painter {
+  z-index:0;
+  width: 80px;
+  height: 100px;
+  background-image: url("../img/register/painter.png");
+  background-size: 100%;
+  margin-top: 83px;
+  background-repeat: no-repeat;
+}
+
+.pianist-girl {
+  width: 188px;
+  height: 190px;
+  background-image: url("../img/register/pianist.png");
+  background-size: 100%;
+  margin-bottom: -11px;
+  margin-top: 29px;
+  margin-left: 31px;
+  background-repeat: no-repeat;
+
+}
+.baker {
+  width: 91px;
+  height: 161px;
+  background-image: url("../img/register/baker.png");
+  background-size: 100%;
+  margin-top: 45px;
+  margin-left: 31px;
+  background-repeat: no-repeat;
+}
+
+.img-grass {
+  width: 970px;
+  height: 49px;
+  background-image: url("../img/main/grass_ground.png");
+  margin-top: -50px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+/* ==========================================================================
+   Footer CSS
+   ========================================================================== */
+
+.books {
+  margin: 6px -20px 0 12px;
+  height: 50px;
+  width: 100px;
+  background: url("../img/register/books.png") no-repeat;
+  background-size: 90%;
+}
+
+.studying {
+  margin-top: -72px;
+  margin-left: 20px;
+  height: 150px;
+  width: 126px;
+  background: url("../img/register/studying.png") no-repeat;
+  background-size: 90%;
+}
+
+.red-hat-boy {
+  margin-top: -77px;
+  height: 150px;
+  width: 101px;
+  background: url("../img/register/red_hat_boy.png") no-repeat;
+  background-size: 90%
+}
+
+.reg-kiddies {
+  height:0px;
+}
+
+.purple-slant {
+  background-color: #52126E;
+  height:10px;
+  width:500px;
+  margin-top: -5px;
+}
+
+.waves {
+  height: 18px;
+  width: 490px;
+  float: right;
+  margin-top: -6px;
+  background: url("../img/register/footer_waves.png") no-repeat;
+}
+
+/* ==========================================================================
+   Font CSS
+   ========================================================================== */
+
+::-webkit-input-placeholder { color:#555!important; }
+::-moz-placeholder { color:#555!important; } /* firefox 19+ */
+:-ms-input-placeholder { color:#555!important; } /* ie */
+input:-moz-placeholder { color:#555!important; }
+
+/* ==========================================================================
+   Content CSS
+   ========================================================================== */
+.reg-form-container {
+  min-height: 400px;
+  border: 3px solid #B57ACE;
+  -moz-box-shadow:    0 20px 0 -15px #815796;
+  -webkit-box-shadow: 0 20px 0 -15px #815796;
+  box-shadow:         0 20px 0 -15px #815796;
+}
+
+.lbl-reg {
+  background-color: #B47ACE;
+  width: 240px;
+  height: 49px;
+  z-index: 999;
+}
+
+.reg-center-label {
+  font-size: 20px;
+  margin-top:14px;
+  bottom:24px;
+  color: #FFF;
+  position:relative;
+}
+
+.shadow-label {
+  -moz-box-shadow:    5px 3px 0 -2px #815796;
+  -webkit-box-shadow: 5px 3px 0 -2px #815796;
+  box-shadow:         5px 3px 0 -2px #815796;
+
+}
+
+.step-size {
+  font-size: 18px;
+}
+
+.step-indicator {
+  color: #732B8B;
+}
+
+.lighter-indicator {
+  color: #C7B2CF;
+}
+
+.sap-info-color {
+  background-color: #FEE9E8;
+}
+
+.sap-info-font {
+  font-size: 11px;
+}
+
+.in-font {
+  font-size:12px;
+}
+
+.no-border {
+  border: none;
+}
+
+.sharp-edge {
+  border-radius:                    0px;
+  -webkit-border-radius:            0px;
+  -moz-border-radius:               0px;
+}
+
+.reg-button {
+   background: #672481;
+   background: -webkit-gradient(linear, left top, left bottom, from(#672481), to(#672481));
+   background: -webkit-linear-gradient(top, #672481, #672481);
+   background: -moz-linear-gradient(top, #672481, #672481);
+   background: -ms-linear-gradient(top, #672481, #672481);
+   background: -o-linear-gradient(top, #672481, #672481);
+   padding: 5px 26px;
+   -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   border-radius: 6px;
+   -moz-box-shadow:    3px 2px 0 -1px #4D2557;
+   -webkit-box-shadow: 3px 2px 0 -1px #4D2557;
+   box-shadow:         3px 2px 0 -1px #4D2557;
+   border-color: #672481;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #FFF;
+   font-size: 11px;
+   text-decoration: none;
+   }
+.reg-button:hover {
+   border-top-color: #672481;
+   background: #672481;
+   color: #ccc;
+   }
+.reg-button:active {
+   border-top-color: #65248b;
+   background: #65248b;
+   }
+
+.form-error {
+  color:red;
+}
+
+#locations-error {
+  margin: 0 10px 10px;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.styled-select p {
+  display: inline-block;
+  font-weight: bold;
+}
+
+.styled-select select {
+  background: transparent;
+  width: 400px;
+  height: 34px;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  cursor:pointer;
+} 
+
+.styled-select {
+   width: 400px;
+   height: 34px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+   overflow: hidden;
+   background: url('../img/register/dropdown.png') no-repeat right;
+   text-indent: 1px;
+   text-overflow: '';
+}
+
+.calendar-logo {
+  height: 30px;
+  width: 30px;
+  background: url("../img/register/calendar.png") no-repeat;
+  background-size: 100%;
+  margin: -32px 65px;
+  cursor: pointer;
+}
+
+.select-width-long {
+  width: 435px!important;
+}
+
+.select-width-short {
+  width:210px!important;
+}
+
+.tbl-class-schedule > tbody > tr > td {
+  width:100px;
+}
+
+.modal_reminder {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.location_group_width {
+  width:287px;
+}
+
+.width_404 {
+  width: 404px;
+}
+
+.width-384 {
+  width: 384px;
+}
+
+.location-group {
+  border: 1px solid #B278D4;
+  width: 416px;
+  margin-bottom: 20px;
+  padding:10px;
+}
+
+.mg-r-20 {
+  margin:-20px -7px;
+}
+
+.btn-remove-loc {
+  padding: 2px 5px;
+}
+
+.branch {
+  width: 384px;
+  margin-top: 10px;
+}
+
+.centre-address {
+  width: 384px;
+}
+
+.btn-circle {
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  padding: 2px 0;
+  font-size: 12px;
+  line-height: 1.42;
+  border-radius: 15px;
+}
+
+/* ==========================================================================
+   Predefined CSS
+   ========================================================================== */
+
+.date-size {
+  font-size: 9px;
+}
+/* ==========================================================================
+   Upload Image CSS
+   ========================================================================== */
+.img-upload-btn {
+  color:#000;
+  height:31px;
+  background-color:#8EE5D3;
+  border-radius: 0px;
+  -moz-box-shadow:    2px 2px 1px 1px #55AFBA;
+  -webkit-box-shadow: 2px 2px 1px 1px #55AFBA;
+  box-shadow:         2px 2px 1px 1px #55AFBA;
+}
+
+.upload-txt {
+  width: 300px;
+  height:auto;
+  float: left;
+}
+
+.upload-btn {
+  width: 90px;
+  height:auto;
+  float:left;
+}
+
+#adhoc_add_another {
+  width: 400px;
+  height: 40px;
+  margin: -10px 0 0 10px;
+  font-size: 11px;
+}
+
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 999px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  background: red;
+  cursor: inherit;
+  display: block;
+}
+input[readonly] {
+  background-color: white !important;
+  cursor: text !important;
+}
+/* ==========================================================================
+   Success Page CSS
+   ========================================================================== */
+
+.success {
+  margin: 150px 55px 0 10px;
+  min-height: 420px;
+  text-align: center;
+}
+
+.success h3 {
+  line-height: 40px;
+}
+
+/*
+@-moz-document url-prefix() {
+  select {
+    -moz-appearance: none!important;
+    text-indent: 0.01px!important;
+    text-overflow: ""!important;
+  }
+}*/
+
+@-moz-document url-prefix(){
+  .styled-select select { width: 110%; }
+}

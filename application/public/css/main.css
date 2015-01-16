@@ -1,0 +1,171 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+@import url(https://fonts.googleapis.com/css?family=Gochi+Hand);
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+@import url(https://fonts.googleapis.com/css?family=Delius+Unicase:400,700);
+
+
+/* ==========================================================================
+   Wrapper CSS
+   ========================================================================== */
+
+* {
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  margin: 0;
+}
+
+html, body {
+  margin: auto;
+  padding: 0;
+  background: #000000;
+}
+
+.body{
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  right: -40px;
+  bottom: -40px;
+  width: auto;
+  height: auto;
+  background-image:url('../img/main/main_background.jpg');
+  background-size: cover; 
+  background-color: #444;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px); 
+  -ms-filter: blur(5px);
+   -o-filter: blur(5px);
+
+  z-index: 0;
+}
+
+input, textarea, a {
+  resize:none;
+  border-radius:                    2px!important;
+  -webkit-border-radius:            2px!important;
+  -moz-border-radius:               2px!important;
+}
+
+select {
+  -moz-appearance: none;
+  -moz-appearance: window;
+  text-indent: 0.01px;
+  text-overflow: '';
+  border-radius:                    2px!important;
+  -webkit-border-radius:            2px!important;
+  -moz-border-radius:               2px!important; 
+}
+
+/*@media (min-width:992px){.container{width:840px}}*/
+@media (min-width:1200px){.container{width:970px}}
+
+a:hover {
+  text-decoration: none;
+  color: #428bca;
+}
+
+.mtop20 {
+  margin-top: 20px;
+}
+
+.mright10 {
+  margin-right: 10px!important;
+}
+
+.m-b-5{
+  margin-bottom: 5px;
+}
+
+.p15 {
+  padding: 15px;
+}
+
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin: 0 auto -100px;
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  /* .push must be the same height as footer */
+  height: 100px; 
+  margin: 50px auto -100px;
+  width: 970px;
+  position: relative; 
+}
+
+.btn-black{
+  background: rgba(0,0,0,0.8);
+}
+.btn-black:hover{
+ background: rgba(13,24,30,0.8);
+ color:#FFFFFF;
+}
+.visibility-hidden{
+  visibility:hidden;
+}
+
+
+/* ==========================================================================
+   Navbar
+   ========================================================================== */
+
+.navbar-transparent{
+  background: transparent;
+  border: transparent;
+}
+
+.text-color-white >li > a, .text-color-white > li, .text-color-white{
+  color:#FFFFFF;
+}
+
+.navbar-default .navbar-brand{
+  color:#6D2121;
+}
+
+.m-log{
+  margin: 10px 10px 10px 0px;
+}
+
+.dropdown-transparent, .dropdown-transparent > button{
+  background:transparent;
+}
+
+.pd-l-2{
+  padding-left:2px;
+  
+}
+
+.pd-r-2{
+   padding-right:2px;
+}
+
+.m-top-15{
+  margin-top:20px;
+}
+
+.dropdown-menu-semi-transparent{
+  background:rgba(91,81,96,0.8);
+}
+
+.nav-container{
+  display: block;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #FFFFFF;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #FFFFFF;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #FFFFFF;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:   #FFFFFF;
+}

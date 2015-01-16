@@ -1,0 +1,337 @@
+/* Styles Specific for Admin Pages */
+/* ==========================================================================
+   Table CSS
+   ========================================================================== */
+
+/*table { width:100%; table-layout: fixed; }
+th,td, h3{
+  word-wrap:break-word;
+  overflow: hidden;
+}
+table.table td img{
+    width: 100%;
+    height: auto;
+}*/
+	.element::-webkit-scrollbar { width: 0 !important }
+
+.p-logo{
+  padding: 0px 15px 15px;
+}
+
+.b-transparent{
+	background: transparent;
+	color:#FFFFFF;
+}
+.pd-no{
+	padding:10px;
+	padding-bottom: 5px;
+	text-align: left;
+}
+
+.color-gray-shade{
+	color:rgb(85, 85, 85);
+}
+
+.dropdown-menu-semi-transparent{
+	background-color:rgba(85, 85, 85,0.8);
+}
+.display-none{
+	display: none;
+}
+.body{
+
+	  background-image:url('../img/main/admin_background.jpg');
+	  min-height: 100%;
+	  height: 102%;
+	  -webkit-filter: blur(0px);
+  	  -moz-filter: blur(0px); 
+  	  -ms-filter: blur(0px);
+   	  -o-filter: blur(0px);
+}
+#body-background, #nav-container{
+  display:none;
+}
+
+.user-pane{
+	left: calc(1% - 0px);
+	width: 20%;
+	color: white;
+	position: absolute;
+	text-align: center;
+	padding: 0px 0 10px 0;
+	z-index: 2;
+	background: rgba(85, 85, 85, 0.8);
+	min-height: 100%;
+	overflow-y:hidden;
+}
+
+.project-pane{
+	position: absolute;
+	top: calc(20% - 75px);
+	left: calc(30% - 9px);
+	margin: 10px -15px;
+	height: 150px;
+	width: auto;
+	color: white;
+	padding: 10px;
+	z-index: 2;
+}
+
+.plus-icon{
+
+
+}
+
+.plus-icon:hover{
+	background: #95A5A6;
+}
+
+
+.btn:active{
+	border: hidden;
+}
+
+
+.row-sidebar:hover{
+	background: rgb(108, 122, 137);
+	-webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0, .75);
+	-moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0, .75);
+	box-shadow: 0px 0px 5px 5px rgba(0,0,0, .75);
+	 	
+}
+.row-sidebar{
+	padding: 0px;
+}
+.usermesh{
+	height: 400px;
+	margin-top: 75px;
+	z-index: 2;
+
+}
+
+#nav{
+	overflow-y:scroll;
+	height: 90%;
+	width: 100%;
+	padding: 10px;
+	margin-top: 70px;
+	position: absolute;
+	.element::-webkit-scrollbar { width: 0 !important }
+}
+
+#nav >li>a{
+	color:#9F9F9F;
+}
+
+#nav::-webkit-scrollbar{
+	width: 4px;
+	background-color: #6C7A89;
+}
+
+
+form > .form-control {
+	width:50%;
+	margin-bottom: 5px;
+	background: rgba(255,255,255,0);
+	color:#FFFFFF;
+
+}
+
+form > .form-control::-webkit-input-placeholder, .form-names::-webkit-input-placeholder{
+	color:#FFFFFF;
+}
+
+form > .form-control:-moz-placeholder, .form-names:-moz-placeholder {
+	color:#FFFFFF;
+}
+
+form > .form-control::-moz-placeholder, .form-names::-moz-placeholder{
+	color:#FFFFFF;
+}
+
+ form > .form-control:-ms-input-placeholder, .form-names:-ms-input-placeholder{
+ 	color:#FFFFFF;
+ }
+
+
+.b-transparent::-webkit-input-placeholder, .form-names::-webkit-input-placeholder{
+	color:#FFFFFF;
+}
+
+.b-transparent:-moz-placeholder, .form-names:-moz-placeholder {
+	color:#FFFFFF;
+}
+
+.b-transparent::-moz-placeholder, .form-names::-moz-placeholder{
+	color:#FFFFFF;
+}
+
+.b-transparent:-ms-input-placeholder, .form-names:-ms-input-placeholder{
+ 	color:#FFFFFF;
+ }
+
+.form-names{
+	width: 95%;
+	background: rgba(255,255,255,0);
+	color:#FFFFFF;
+}
+
+.table-custom > tbody > tr > td{
+	padding:5px;
+}
+
+.modal-content{
+	background:rgba(85, 85, 85, 0.5);
+}
+
+.btn-transparent{
+	background: transparent;
+	color:#9F9F9F;
+	padding: 20px 60px 20px 60px;
+	border-color: transparent;
+}
+.btn-transparent:active{
+	border-color: transparent;
+}
+
+
+.btn-transparent-form{
+	background: transparent;
+	color:#FFFFFF;
+}
+
+.modal {
+	color:#9F9F9F;
+}
+
+cwhite{
+	color:#FFFFFF;
+}
+
+
+.btn-li > a{
+	color:#9F9F9F;
+}
+
+/* ==========================================================================
+   Content
+   ========================================================================== */
+.intro-project{
+	position: absolute;
+	top: calc(40% - 176px);
+	left: calc(45% - 0px);
+	margin: 10px -15px;
+	height: 150px;
+	width: auto;
+	color: white;
+	padding: 10px;
+	z-index: 2;
+}
+
+.intro-project-table{
+	top: calc(40% - 176px);
+	left: calc(45% - 0px);
+	margin: 10px -15px;
+	height: 150px;
+	width: auto;
+	color: white;
+	padding: 10px;
+	z-index: 2;
+}
+
+.user-info-exist{
+	position: absolute;
+	top: calc(65% - 176px);
+	left: calc(27% - 0px);
+	margin: 10px -15px;
+	height: 150px;
+	width: auto;
+	color: white;
+	padding: 10px;
+	z-index: 2;
+}
+
+.user-info-none{
+	position: absolute;
+	top: calc(80% - 176px);
+	left: calc(40% - 0px);
+	margin: 10px -15px;
+	height: 150px;
+	width: auto;
+	color: white;
+	padding: 10px;
+	z-index: 2;
+}
+
+.btn-black{
+	background-color: rgba(85, 85, 85, 0.8);
+}
+@media (max-width: 480px){
+	.btn-black{
+		margin-left:75px;
+	}
+}
+
+.table-content-custom{
+	background-color: rgba(85, 85, 85, 0.8);
+}
+
+.table-bordered{
+	border-color: #657383;	
+}
+td{
+	width:150px;
+	color:#FFFFFF;
+}
+td:nth-child(1){
+	width:75px;
+}
+
+th{
+	background:rgba(0,0,0,0.8);
+}
+.click-project{
+	margin: -44px 100px;
+	color:#428bca;
+}
+
+a {
+	color: #FFFFFF;
+}
+
+/* ==========================================================================
+   Data Tables
+   ========================================================================== */
+.dataTables_wrapper .dataTables_filter input[type=search]{
+	margin-left: -190px;
+	position: absolute;
+	width: 20%;
+	background: rgba(0,0,0,0.4);
+	border-color: transparent;
+}
+.dropdown-data-tables{
+	background: rgba(0,0,0,0.4);
+	border-color: rgba(0,0,0,0.4);
+}
+.span-left{
+	margin: 4px 196px 0px -7px;
+}
+
+.dataTables_info .dataTables_paginate {
+	color: #FFFFFF;
+}
+
+#placeholder-color-w::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #E5D7D7
+}
+#placeholder-color-w:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #E5D7D7
+   opacity:  1;
+}
+#placeholder-color-w::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #E5D7D7
+   opacity:  1;
+}
+#placeholder-color-w:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:   #E5D7D7
+}

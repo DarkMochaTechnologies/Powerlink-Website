@@ -1,0 +1,250 @@
+
+
+
+
+/* ==========================================================================
+   Login Form
+   ========================================================================== */
+
+   .grad{
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  right: -40px;
+  bottom: -40px;
+  width: auto;
+  height: auto;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+  z-index: 1;
+  opacity: 0.7;
+}
+
+.header div span{
+  color: #5379fa !important;
+}
+
+.login{
+  position: absolute;
+  top: calc(50% - 75px);
+  left: calc(50% - 0px);
+  margin-left:-75px;
+  height: 150px;
+  width: 350px;
+  padding: 10px;
+  z-index: 2;
+}
+
+.login input[type=text]{
+  width: 250px;
+  height: 30px;
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.6);
+  border-radius: 2px;
+  color: #fff;
+  font-family: 'Exo', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 4px;
+}
+
+.login input[type=password]{
+  width: 250px;
+  height: 30px;
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.6);
+  border-radius: 2px;
+  color: #fff;
+  font-family: 'Exo', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 4px;
+  margin-top: 10px;
+}
+
+.login input[type=submit]{
+  width: 260px;
+  height: 35px;
+  background: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+  border-radius: 2px;
+  color: #a18d6c;
+  font-family: 'Exo', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 6px;
+  margin-top: 10px;
+}
+
+.login input[type=button]:hover{
+  opacity: 0.8;
+}
+
+.login input[type=button]:active{
+  opacity: 0.6;
+}
+
+.login input[type=text]:focus{
+  outline: none;
+  border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=password]:focus{
+  outline: none;
+  border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=button]:focus{
+  outline: none;
+}
+
+::-webkit-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+
+::-moz-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+
+
+
+.welcome-note{
+position: absolute;
+top: calc(50% - 75px);
+left: calc(50% - 300px);
+margin: 10px -37px;
+height: 150px;
+width: auto;
+color: white;
+padding: 10px;
+z-index: 2;
+
+}
+
+.welcome-note-dynamic{
+  margin: 10px -15px;
+}
+
+.welcome-button{
+position: absolute;
+top: calc(50% - 0px);
+left: calc(50% - 50px);
+margin: 0 -60px;
+width: 250px;
+color: gray;
+z-index: 2;
+}
+
+.welcome-init{
+ margin: 0px 170px;
+}
+
+.login-init{
+  margin: 100px 100px;
+}
+/* ==========================================================================
+  Error Message
+   ========================================================================== */
+.error-message{
+  color: #FFFFFF;
+  
+}
+
+
+
+/* ==========================================================================
+  Register
+   ========================================================================== */
+
+ .create-account{
+  position: absolute;
+  top: calc(50% - 240px);
+  left: calc(50% - 300px);
+  margin: 10px -15px;
+  height: 150px;
+  width: auto;
+  color: white;
+  padding: 10px;
+  z-index: 2;
+}
+
+.form-control {
+  background: transparent;
+  color:#FFFFFF;
+  width: 60%;
+}
+
+.m-ddn{
+  margin: 0 10px;
+}
+
+.m-b-5{
+  margin-bottom: 5px;
+}
+
+.btn-create-back{
+  margin: 10px 0px -10px 140px ;
+  opacity: 0.6;
+}
+
+.btn-create-back > button > a{
+  color: #000000;
+  font-size: 18px;
+}
+
+.btn-back{
+  border-radius: 0px;
+}
+
+/* ==========================================================================
+   Miscellaneous
+   ========================================================================== */
+
+.register-text{
+  font-size:14px;
+  color:#FFFFFF;
+}
+.text-change-color-b{
+  color:#000000;
+}
+
+.register-white{
+  color:white;
+}
+
+
+
+.welcome-text{
+  margin: -10px 90px
+}
+
+.to-text{
+  margin-left: 95px;
+}
+
+
+.B-text{
+  margin: -45px 135px;
+  font-size: 50px;
+}
+.B-cont-text{
+  margin: 10px 283px 0px 0px;
+  font-size:14px;
+}
+.M-text{
+  margin: 15px 150px;
+  font-size: 50px;
+}
+.M-cont-text{
+  margin: 10px 225px 0px 0px;
+  font-size:14px;
+}
+.S-text{
+  margin: -44px 177px;
+  font-size: 50px;
+}
+.S-cont-text{
+  margin: 10px 200px 0px 0px;
+  font-size:14px;
+}
+

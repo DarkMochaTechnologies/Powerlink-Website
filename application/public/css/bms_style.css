@@ -1,0 +1,164 @@
+.body{
+
+	  background-image:url('../img/main/bms_background.jpg');
+}
+
+#body-background, #nav-container{
+  display:none;
+}
+
+/* ==========================================================================
+   BMS Index
+   ========================================================================== */
+.intro-project{
+	position: absolute;
+	top: calc(50% - 75px);
+	left: calc(50% - 300px);
+	margin: 10px -15px;
+	height: 150px;
+	width: auto;
+	color: white;
+	padding: 10px;
+	z-index: 2;
+}
+
+.intro-project-table{
+	position: absolute;
+	top: calc(35% - 176px);
+	left: calc(40% - 300px);
+	margin: 10px -15px;
+	height: 150px;
+	width: auto;
+	color: white;
+	padding: 10px;
+	z-index: 2;
+}
+
+@media (max-width: 480px){
+	.btn-black{
+		margin-left:75px;
+	}
+}
+
+
+table {
+	background:rgba(0,0,0,0.8);
+	color:#FFFFFF;
+}
+
+.table-bordered{
+	border-color: #657383;	
+}
+td{
+	width:150px;
+	color:#FFFFFF;
+}
+td:nth-child(1){
+	width:75px;
+}
+
+th{
+	background:rgba(0,0,0,0.8);
+}
+.click-project{
+	margin: -44px 100px;
+}
+
+a {
+	color: #FFFFFF;
+}
+
+/* ==========================================================================
+   Create Page
+   ========================================================================== */
+
+ .create-project{
+	position: absolute;
+	top: calc(50% - 240px);
+	left: calc(50% - 300px);
+	margin: 10px -15px;
+	height: 150px;
+	width: auto;
+	color: white;
+	padding: 10px;
+	z-index: 2;
+}
+
+.form-control {
+	background: transparent;
+	color:#FFFFFF;
+}
+
+.m-ddn{
+	margin: 0 10px;
+}
+
+.m-b-5{
+	margin-bottom: 5px;
+}
+
+.btn-create-back{
+	margin: 10px 0px -10px 140px ;
+	opacity: 0.6;
+}
+
+.btn-create-back > button > a{
+	color: #000000;
+	font-size: 18px;
+}
+
+.btn-back{
+	border-radius: 0px;
+}
+
+.opacity-6{
+	opacity: 0.6;
+}
+
+.opacity-6 > option{
+	opacity: 1;
+}
+
+.modal-content {
+	background: rgba(11,5,5,0.8);
+}
+
+.modal > h4{
+	color:#FFFFFF;
+}
+/* ==========================================================================
+   Data Tables
+   ========================================================================== */
+.dataTables_wrapper .dataTables_filter input[type=search]{
+	margin-left: -190px;
+	position: absolute;
+	width: 20%;
+	background: rgba(0,0,0,0.4);
+	border-color: transparent;
+}
+.dropdown-data-tables{
+	background: rgba(0,0,0,0.4);
+	border-color: rgba(0,0,0,0.4);
+}
+.span-left{
+	margin: 4px 196px 0px -7px;
+}
+
+.dataTables_info .dataTables_paginate {
+	color: #FFFFFF;
+}
+
+#placeholder-color-w::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #E5D7D7
+}
+#placeholder-color-w:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #E5D7D7
+   opacity:  1;
+}
+#placeholder-color-w::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #E5D7D7
+   opacity:  1;
+}
+#placeholder-color-w:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:   #E5D7D7
+}
