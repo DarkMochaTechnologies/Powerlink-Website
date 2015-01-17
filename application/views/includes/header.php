@@ -88,129 +88,63 @@
 	<div class = "body" id="body-background"></div>
 	<div class="page-wrap" id = "main-wrap">
 			<div class="header-container">
+				<nav class="navbar navbar-inverse navbar-custom">
+  					<div class="container-fluid">
+   		 				<!-- Brand and toggle get grouped for better mobile display -->
+    					<div class="navbar-header">
+      						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+       						<span class="sr-only">Toggle navigation</span>
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+      						</button>
+      		    			<a class="navbar-brand logo" href="#"><img src ="<?=base_url()?>application/public/img/main/Logo.png" height="75" width="250"/></a>
+    					</div>
+   						 <!-- Collect the nav links, forms, and other content for toggling -->
+    					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      						<ul class="nav navbar-nav">
+      			  				<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+      			  				<li><a href="#">Link</a></li>
+      			  				<li class="dropdown">
+      			    			<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+      			   					<ul class="dropdown-menu" role="menu">
+      			      					<li><a href="#">Action</a></li>
+      			      					<li><a href="#">Another action</a></li>
+      			      					<li><a href="#">Something else here</a></li>
+      			      					<li class="divider"></li>
+      			      					<li><a href="#">Separated link</a></li>
+      			      					<li class="divider"></li>
+      			      					<li><a href="#">One more separated link</a></li>
+      			    				</ul>
+      			  				</li>
+      						</ul>
+      						<form class="navbar-form navbar-left" role="search">
+      			  				<div class="form-group">
+      			    				<input type="text" class="form-control" placeholder="Search">
+      			  				</div>
+      			 				<button type="submit" class="btn btn-default">Submit</button>
+      						</form>
+      						<ul class="nav navbar-nav navbar-right">
+      						  <li><a href="#">Link</a></li>
+      						  <li class="dropdown">
+      						    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+      						    <ul class="dropdown-menu" role="menu">
+      						      <li><a href="#">Action</a></li>
+      						      <li><a href="#">Another action</a></li>
+      						      <li><a href="#">Something else here</a></li>
+      						      <li class="divider"></li>
+      						      <li><a href="#">Separated link</a></li>
+      						    </ul>
+      						  </li>
+      						</ul>
+    					</div><!-- /.navbar-collapse -->
+ 					</div><!-- /.container-fluid -->
+				</nav>
 
 			</div>
 			<?php
 				if (isset($s_page_header)) {
-					switch ($s_page_header) {
-						case 'register':
-			?>
-						<div class="container reg-form-container">
-			<?php
-						break;
-					}
-				}
-			?>
-			<?php
-				if (isset($s_page_type)) {
-					switch ($s_page_type) { // Switch Navbars for admins and users
-						case 'admin':
-								if ($this->session->userdata('sap_admin_logged_in')) { //If true display Navbar
-			?>
-								<div class="nav-container">	
-									<nav class="navbar navbar-default" role="navigation">
-										<div class="container-fluid" style="padding-left:0px;">
-											<div class="navbar-header">
-											</div>
-											<div>
-												<ul id="navchange" class="nav navbar-nav">
-													<li class="pd-lr-5 <?php echo ($b_tab_1) ? 'active' : ''; ?>" id="dashboard"><a href="<?php echo base_url(); ?>sap_admin/"> DASHBOARD</a></li>
-													<li class="pd-lr-5 <?php echo ($b_tab_2) ? 'active' : ''; ?>" id="centre"><a href="<?php echo base_url(); ?>sap_admin/centre">CENTRE MANAGEMENT</a></li>
-													<li class="pl-lr-5 <?php echo ($b_tab_3) ? 'active' : ''; ?>" id="ad"><a href="<?php echo base_url(); ?>sap_admin/ad">ADS MANAGEMENT</a></li>
-												</ul>
-												<ul class="nav navbar-nav navbar-right">
-													<p class="navbar-text">Welcome, <?php echo $this->session->userdata('sap_admin_name'); ?></p>
-													<li class="navbar-text pd-r-10"><a href="<?php echo base_url(); ?>sap_admin/logout"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
-												</ul>
-											</div>
-										</div>
-									</nav>
-								</div>		
-			<?php		
-								}
-						break;
-						case 'bms':
-			?>
-						<div class="nav-container" id ="w">
-						<!--
-						<div class="row">
-							<div class="col-sm-10">
-								<nav class="navbar navbar-default navbar-transparent text-color-white" role="navigation">
-										<div class="navbar-header">
-											<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-main">
-												<span class="sr-only">Toggle navigation</span>
-												<span class="icon-bar"></span>
-												<span class="icon-bar"></span>
-												<span class="icon-bar"></span>
-											</button>
-										</div>
-										<div class="collapse navbar-collapse" id="navbar-main">
-											<ul id="navchange" class="nav navbar-nav cs-font-delius main-sap-nav">
-												<li class=""><a href="<?php echo base_url(); ?>">HOME</a></li>
-												<li class=""><a href="#">SEARCH</a></li>
-												<li class=""><a href="#">REVIEWS</a></li>
-												<li class=""><a href="#">BE REWARDED</a></li>
-												<li class=""><a href="#">TOP CHARTS</a></li>
-												<li class=""><a href="#">PROMOTIONS & CONTENTS</a></li>
-												<li class=""><a href="#">JOIN A COMMUNITY</a></li>
-												<li class=""><a href="#">WHAT'S NEW</a></li>
-											</ul>     
-										</div>
-								</nav>
-							</div>
-							-->
-							<div class="row hidden-sm hidden-xs m-log pull-right" style="margin-left: -20px;">
-								<div class="dropdown col-xs-3 pd-l-2 pd-r-2 m-top-15">
-  										<button class="btn btn-default btn-sm dropdown-toggle dropdown-transparent" type="button" id="dropdownMenu1" data-toggle="dropdown">
-    									<span class="caret"></span>
-  									</button>
-  									<ul class="dropdown-menu dropdown-menu-semi-transparent" role="menu" aria-labelledby="dropdownMenu1">
-   									 <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Account Settings</a></li>
-    									<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Account Settings</a></li>
-    									<li role="presentation" class="divider"></li>
-    									<li role="presentation"><a role="menuitem" tabindex="-1" href="<?=base_url()?>log/logout">Log out</a></li>
-  									</ul>
-								</div>
-								<div class=" col-xs-9 navbar-header navbar-brand pd-l-2">
-									Hi, <?php if($this->session->userdata('AccInfo')['FirstName']!= null){ echo $this->session->userdata('AccInfo')['FirstName'];}?>
-								</div>
-							</div>
+					switch ($s_page_header) {}
 
-							<div class="row visible-sm visible-xs pull-left m-left-20" style = "margin-left:20px;">
-									<div class=" col-xs-6 navbar-header navbar-brand">
-										Hi, <?php if($this->session->userdata('AccInfo')['FirstName']!= null){ echo $this->session->userdata('AccInfo')['FirstName'];}?>
-									</div>
-									<div class="dropdown col-xs-6 pd-l-2 pd-r-2 m-top-15">
-  									<button class="btn btn-default btn-sm dropdown-toggle dropdown-transparent" type="button" id="dropdownMenu1" data-toggle="dropdown">
-    									<span class="caret"></span>
-  									</button>
-  									<ul class="dropdown-menu dropdown-menu-semi-transparent" role="menu" aria-labelledby="dropdownMenu1">
-   									 	<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Account Settings</a></li>
-    									<li role="presentation" class="divider"></li>
-    									<li role="presentation"><a role="menuitem" tabindex="-1" href="<?=base_url()?>log/logout">Log out</a></li>
-  									</ul>
-								</div>
-			
-							</div>
-						<!--</div>-->
-						</div>
-			<?php
-						break;
-
-						default:
-			?>
-							<!-- <div class="col-md-3">
-								<div id="searchbox">
-									<form class="navbar-form navbar-left" role="search">
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Search">
-										</div>
-										<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
-									</form>
-								</div>
-							</div> -->
-			<?php		
-						break;
-					}
-				}
+			}
 			?>			

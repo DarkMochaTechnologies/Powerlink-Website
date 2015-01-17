@@ -12,12 +12,14 @@ class Home extends BMS_Controller
 		$this->data['a_cs_scripts'] = array(
 			base_url() . 'application/public/css/main.css',
 			base_url() . 'application/public/css/home_style.css',
+			base_url() . 'application/public/css/slick.css',
 			);
 
 		$this->data['a_js_scripts'] = array( 
 			base_url() . 'application/public/js/modernizr.custom.js',
 			base_url() . 'application/public/js/jquery.lettering.js',
 			base_url() . 'application/public/js/jquery-2.1.1.min.js',
+			base_url() . 'application/public/js/slick.js',			
 			);
 		$this->load->helper('form');
 		$this->load->library('session');

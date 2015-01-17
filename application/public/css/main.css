@@ -29,7 +29,7 @@ html, body {
   width: auto;
   height: auto;
   background-size: cover; 
-  background-color: #444;
+  background-color: #FEFEFE;
   -webkit-filter: blur(5px);
   -moz-filter: blur(5px); 
   -ms-filter: blur(5px);
@@ -167,4 +167,18 @@ a:hover {
 }
 :-ms-input-placeholder { /* Internet Explorer 10+ */
    color:   #FFFFFF;
+}
+
+.logo{
+  height:0 auto;
+    margin-top: -20px;
+  position: relative;
+}
+
+.navbar-custom{
+  background-color: #000000;
+  padding: 30px;
+  border-radius: 0px;
+  opacity: .9;
+  z-index: 10;
 }
