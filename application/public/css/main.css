@@ -21,14 +21,11 @@ html, body {
 }
 
 .body{
-  position: absolute;
   top: -20px;
   left: -20px;
   right: -40px;
   bottom: -40px;
   width: auto;
-  height: auto;
-  background-size: cover; 
   background-color: #FEFEFE;
   -webkit-filter: blur(5px);
   -moz-filter: blur(5px); 
@@ -82,18 +79,11 @@ a:hover {
 .page-wrap {
   min-height: 100%;
   /* equal to footer height */
-  margin: 0 auto -100px;
+  margin: 0 auto;
 }
 .page-wrap:after {
   content: "";
   display: block;
-}
-.site-footer, .page-wrap:after {
-  /* .push must be the same height as footer */
-  height: 100px; 
-  margin: 50px auto -100px;
-  width: 970px;
-  position: relative; 
 }
 
 .btn-black{
@@ -171,7 +161,7 @@ a:hover {
 
 .logo{
   height:0 auto;
-    margin-top: -20px;
+  margin-top: -20px;
   position: relative;
 }
 
@@ -181,4 +171,27 @@ a:hover {
   border-radius: 0px;
   opacity: .9;
   z-index: 10;
+  font-size: 20px;
+}
+
+.navbar-main {
+  margin-top: 40px;
+  margin-bottom: -20px;
+  padding-right:60px;
+}
+
+.nav > li > a{
+    font-size: 16px;
+}
+
+ .navbar-collapse {
+  margin-left:-60px;
+ }
+
+.navbar-header{
+  padding-left: 60px;
+}
+
+.top-nav-right{
+  color:#FFFFFF;
 }
