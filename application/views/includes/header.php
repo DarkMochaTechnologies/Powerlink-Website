@@ -48,7 +48,7 @@
 			}
 		</script>
 	<?php
-
+		echo "\t" . '<script type="text/javascript" src="' . base_url() . 'application/public/js/jquery-2.1.1.min.js"></script>' . "\r\n";
 		// All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects
 		if (isset($b_modernizr_enabled)){ 
 			if ($b_modernizr_enabled) {
@@ -59,7 +59,7 @@
 		if (isset($b_bootstrap_enabled)) {
 			if ($b_bootstrap_enabled) {
 				echo "\t" . '<link rel="stylesheet" href="' . base_url() . 'application/public/css/bootstrap.min.css">' . "\r\n";
-				
+				echo "\t" . '<script type="text/javascript" src="' . base_url() . 'application/public/js/vendor/bootstrap.min.js"></script>' . "\r\n";
 			}
 		}
 
@@ -91,24 +91,33 @@
   					<div class="container-fluid">
    		 				<!-- Brand and toggle get grouped for better mobile display -->
     					<div class="navbar-header">
-      						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
        						<span class="sr-only">Toggle navigation</span>
         					<span class="icon-bar"></span>
         					<span class="icon-bar"></span>
         					<span class="icon-bar"></span>
       						</button>
-      		    			<a class="navbar-brand logo" href="#"><img src ="<?=base_url()?>application/public/img/main/Logo.png" height="75" width="250"/></a>
+      		    			<a class="navbar-brand logo" href="#"><img src ="<?=base_url()?>application/public/img/main/Logo.png" height="100" width="340"/></a>
     					</div>
+    						<div class = "container container-header">
+    							<div class = "row header-links">
+    								<a class = "font-header" href="#">About Us </a>
+    								<div class = "font-header"> | </div>
+    								<a class = "font-header" href="#"> Admin Login</a>
+    							</div>
+    							<div class="row">
+    								<button class="btn btn-primary btn-lg btn-home btn-gquote pull-right"><a href"#">Get Quotation</a></button>
+    							</div>
+    						</div>
    						 <!-- Collect the nav links, forms, and other content for toggling -->
-    					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-      						<ul class="nav navbar-nav navbar-right navbar-main">
+    					<div class="collapse navbar-collapse" id="navbar">
+      							<ul class="nav navbar-nav navbar-right navbar-main">
       						  		<li><a href="#">News</a></li>
       						  		<li><a href="#">Events</a></li>
       						  		<li><a href="#">Equipment</a></li>
       						  		<li><a href="#">Support</a></li>
-      						  		<li><button class="btn btn-primary btn-lg btn-home"><a href"#">Get Quotation</a></button></li>
-      						</ul>
+      							</ul>
+      			
     					</div><!-- /.navbar-collapse -->
  					</div><!-- /.container-fluid -->
 				</nav>
